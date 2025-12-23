@@ -1,0 +1,35 @@
+.StatusTrue{
+        padding-right: 50px;
+        background-color: rgb(0, 255, 0);
+        border-radius: 50%;
+        margin-right: 20px;
+}
+
+.StatusFalse{
+        padding-right: 50px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 50%;
+        margin-right: 20px;
+}
+.friendList{
+
+        display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+}
+.item{
+        list-style: none;
+        border: 2px solid #b7a9a9;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+}
+.avatar{
+
+}
+
+.name{
+        margin-right: 50px;
+        margin-left: 20px;
+}

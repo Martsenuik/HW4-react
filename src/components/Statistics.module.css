@@ -1,0 +1,42 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: rgb(111, 108, 108);
+    display: flex;
+    justify-content: center;
+}
+
+.statList{
+    list-style: none;
+}
+
+.item{
+    background-color: brown;
+    padding: 20px 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.item:nth-child(1) {
+    background-color: #5f5600;
+}
+
+.item:nth-child(2) {
+    background-color: #a53f00;
+}
+
+.item:nth-child(3) {
+    background-color: #033302;
+}
+
+.item:nth-child(4) {
+    background-color: #014740;
+}
+
+
